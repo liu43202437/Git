@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+}
+.mark .fxmark {
+    background: rgba(255, 255, 255, 0.9) none repeat scroll 0 0;
+    height: 100%;
+    width: 100%;
+    z-index: 5;
+}
+.mark .fxmark, .mark .share_img {
+    position: fixed;
+}
+.mark .share_img {
+    right: 0;
+    z-index: 10;
+    margin-right: 10px;
+}
+.mark .share_android {
+    background-image: url("http://api.kunlunjue.com/Public/js/share/android.png");
+    background-size: 267px 376px;
+    width: 267px;
+    height: 376px;
+}
+.mark .share_ios {
+    background-image: url("http://api.kunlunjue.com/Public/js/share/ios.png");
+    background-size: 266px 362px;
+    width: 266px;
+    height: 362px;
+}
+.mark .share_img img {
+    width: 250px;
+}
+.share_banner img {
+    vertical-align: middle;
+}
+.share_banner .share_down {
+    float: right;
+    line-height: 45px;
+}
+.share_banner {
+    background-color: #f5f5f5;
+    padding: 8px 12px;
+}
+.share_banner a {
+    display: block;
+}
+.share_slogan {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.share_slogan li {
+    list-style: none;
+}
+.share_slogan .ss_slogan {
+    margin-top: 5px;
+    color: black;
+    font-size: 14px;
+}
+.share_bottom_banner {
+    padding: 15px;
+}
+.share_bottom_banner button {
+    background-color: white;
+    border: 1px solid #c00000;
+    border-radius: 2px;
+    color: #c00000;
+    font-size: 15px;
+    width: 100%;
+    height: 44px;
+}
+.share_iframe {
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    width: 1px;
+    height: 1px;
+}
+.share_down > * {
+    background-color: #c00000;
+    border-radius: 3px;
+    color: white;
+    font-size: 14px;
+    padding: 8px 10px;
+    text-align: center;
+}
+* {
+    -webkit-touch-callout: auto !important;
+    -webkit-user-select: auto !important;
+    -khtml-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+    font-family: arial !important;
+}
+.downbar3 {
+    background-color: #c00000;
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.downbar3 img {
+    margin: 0 4px;
+    height: 30px !important;
+    max-width: none !important;
+}
+.downbar3 * {
+    font-size: 15px;
+    color: white;
+}
+.downbar3 button {
+    background-color: transparent;
+    border: 1.5px solid white;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 4px 0px;
+    margin-right: 12px;
+    width: 60px;
+}
+.related {
+    padding: 0px 7px;
+}
+.related * {
+    font-size: 14px;
+}
+.related td {
+    padding: 8px;
+    cursor: pointer;
+    vertical-align: top;
+}
+.related span {
+    padding: 0 8px;
+}
+.related img {
+    border-radius: 4px;
+}
+.related .related_head {
+    margin-left: 20px;
+    margin-top: 14px;
+}
+.related .related_head .vp_sep {
+    background-color: #d02828;
+    display: block;
+    float: left;
+    height: 15px;
+    margin-right: 6px;
+    width: 4px;
+    padding: 0;
+}
+.related .related_head span {
+    line-height: 15px;
+}
+.related .r_time {
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    float: right;
+    font-size: 10px;
+    margin-right: 4px;
+    margin-top: -24px;
+    opacity: 0.6;
+    padding: 0 8px;
+}
+/**/
+.vs_table {
+    width: 100%;
+    background-color: #f4f4f4;
+}
+.vs_head {
+    padding: 0 20px;
+    vertical-align: middle;
+}
+.vs_head, .vs_head img {
+    width: 80px;
+    height: 80px;
+}
+.vs_win {
+    background-color: #d02828;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+}
+.vs_vs {
+    -webkit-text-stroke: 1.5px #979797;
+    margin: 0 20px;
+    font-size: 13px;
+}
+.vs_draw {
+    background-color: #31a112;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 4px;
+}
+.trans {
+    color: transparent;
+    background-color: transparent;
+}
+.vs_type {
+    font-size: 13px;
+    color: #999;
+}
+.center {
+    text-align: center;
+}
+.vs_name_blue, .vs_name_red {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+.vs_name_blue {
+    color: #425485;
+    padding-left: 20px;
+}
+.vs_name_red {
+    color: #d02828;
+    padding-right: 20px;
+    text-align: right;
+}
+.vs_en_blue, .vs_en_red {
+    font-size: 12px;
+    letter-spacing: 0.1px;
+    color: #999;
+    padding-bottom: 4px;
+}
+.vs_en_blue {
+    padding-left: 20px;
+}
+.vs_en_red {
+    text-align: right;
+    padding-right: 20px;
+}
+.vs_player_name {
+    width: 100%;
+}
+.vs_player_name td {
+    width: 50%;
+    padding-top: 4px;
+}
+.vs_flag_blue, .vs_flag_red {
+    height: 15px;
+    border-radius: 2px;
+    border: 1px solid #f4f4f4;
+}
+.vs_flag_blue {
+    margin-right: 4px;
+}
+.vs_flag_red {
+    margin-left: 4px;
+}

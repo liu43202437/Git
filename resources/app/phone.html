@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<htmllang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jquery表单获取短信验证码代码</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            //获取短信验证码
+            var validCode = true;
+            $(".msgs").click(function () {
+                var time = 30;
+                var code = $(this);
+                if (validCode) {
+                    validCode = false;
+                    code.addClass("msgs1");
+                    var t = setInterval(function () {
+                        time--;
+                        code.html(time + "秒");
+                        if (time == 0) {
+                            clearInterval(t);
+                            code.html("重新获取");
+                            validCode = true;
+                            code.removeClass("msgs1");
+                        }
+                    }, 1000)
+                }
+            })
+        })
+    </script>
+    <style type="text/css">
+        form {
+            margin: 200px auto;
+            width: 500px;
+        }
+
+        label {
+            font-size: 14px;
+            color: #555;
+            line-height: 40px;
+            margin-right: 10px;
+        }
+
+        input {
+            width: 212px;
+            height: 38px;
+            border-style: none;
+            padding: 0 4px;
+            border: 1px solid #C8C8C8;
+            margin-right: 10px;
+            outline: none;
+        }
+
+        .msgs {
+            display: inline-block;
+            width: 104px;
+            color: #fff;
+            font-size: 12px;
+            border: 1px solid #0697DA;
+            text-align: center;
+            height: 30px;
+            line-height: 30px;
+            background: #0697DA;
+            cursor: pointer;
+        }
+
+        form .msgs1 {
+            background: #E6E6E6;
+            color: #818080;
+            border: 1px solid #CCCCCC;
+        }
+    </style>
+</head>
+<body>
+<form>
+    <label>验 证 码</label>
+    <input type="text">
+    <span class="msgs">获取短信验证码</span>
+</form>
+</body>
+</html>

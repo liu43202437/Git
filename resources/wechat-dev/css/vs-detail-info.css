@@ -1,0 +1,206 @@
+.list{
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 500;
+  font-size: 15px;
+  padding-bottom: 60px;
+}
+.list-item{
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.lists{
+  display: flex;
+  align-items: center;
+  min-height: 50px;
+  padding: 0 20px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.lists .lab{
+  color: rgba(0, 0, 0, 0.65);
+  font-weight: 500;
+  padding-top: 1px;
+  font-size: 15px;
+}
+.lists .value{
+  font-size: 14px;
+  width: 0;
+  flex-shrink: 1;
+  flex-grow: 1; 
+}
+
+
+.img-item{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 10px 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.img-box{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap
+}
+.img-box-item{
+  width: 45%;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+.item-key{
+  flex-shrink: 0;
+}
+.item-value{
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.img-modle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: black;
+}
+.alert-model{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.65);
+  width: 100%;
+}
+
+.img-modle img {
+  width: 100%;
+}
+.err-text{
+  color: red;
+  font-size: 12px;
+  text-align: left;
+  padding-left: 35px;
+}
+
+
+.zoomImage{
+  position: relative;
+  width:100%;
+  height:0;
+  padding-bottom: 54%;
+  overflow:hidden;
+}
+
+.img-position{
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 0;
+}
+
+
+.close-btn{
+  position: absolute;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 20px;
+  right: 20px;
+}
+.confirm-btns{
+  width: 100%;
+  height: 50px;
+  padding-top: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  background: #fff;
+}
+.confirm-btns .no-btn{
+  margin-right: 10px;
+  border: 1px solid #2A6853;
+  background: #fff;
+  color: #2A6853;
+}
+.confirm-btns .yes-btn{
+  background: #2A6853;
+}
+.confirm-btns button{
+  display: inline-block;
+  width: 40%;
+  height: 35px;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.alert-box{
+  width: 80%;
+  background: #fff;
+}
+.alert-box .text{
+  text-align: center;
+  padding: 65px 0;
+}
+.alert-box .text textarea{
+  border-left: none;
+  border-top: none;
+  border-right: none;
+}
+.alert-box .btn{
+  display: flex;
+}
+.alert-box .btn div{
+  width: 50%;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #ccc;
+  border-left: none;
+}
+.alert-box .btn .yes{
+  color: #006D55;
+}
+
+.alert-box .btn .no{
+  color: #1C7F67
+}
+
+.swal-button--confirm {
+  padding: 7px 19px;
+  border-radius: 2px;
+  background-color: #2A6853;
+  font-size: 12px;
+  border: 1px solid #2A6853;
+}
+
+.swal-button--confirm:active {
+  background-color: #274e41 !important;
+}
+
+.swal-button--cancel{
+color: rgba(0,0,0,0.5);
+}
+
+
+

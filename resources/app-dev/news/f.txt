@@ -1,0 +1,52 @@
+
+                // for (var index = 0; index < 10; index++) {
+                //     if (tabLenghtArray[itemIndex] > 0) {
+                //         tabLenghtArray[itemIndex]--;
+                //     } else {
+                //         tabLoadEndArray[itemIndex] = true;
+                //         break;
+                //     }
+                //
+                //
+                //
+                //
+                //     if (itemIndex == 0) {
+                //         result
+                //         += ''
+                //         + '<a href="#">'
+                //         + '    <hgroup class="khfxRow">'
+                //         + '      <div class="mid">'
+                //         + '        <img class="photo" src="images/img01.jpg" >'
+                //         + '        <div class="new-tit">新闻标题新闻标题新闻标题新闻标题</div><br/> '
+                //         + '        <header>2015-10-18  23:32:13</header> '
+                //         + '      </div>'
+                //         + '    </hgroup>'
+                //         + '</a>';
+                //     } else if (itemIndex == 1) {
+                //         result
+                //         += ''
+                //         + '    <hgroup class="khfxRow">'
+                //         + '      <header><span>已提交资料</span>2015-10-18  23:32:13</header>'
+                //         + '      <div class="mid">'
+                //         + '        <img class="photo" src="images/img01.jpg" >'
+                //         + '        <span><label>昵称：</label>弦上漫步</span> '
+                //         + '        <span><label>账号：</label>' + tabLenghtArray[itemIndex] + '</span> '
+                //         + '        <span><label>手机：</label>1391****746</span> '
+                //         + '        <span><label>券商：</label>中信证券</span> '
+                //         + '      </div>'
+                //         + '    </hgroup>';
+                //     } else if (itemIndex == 2) {
+                //         result
+                //         += ''
+                //         + '<hgroup class="khfxRow">'
+                //         + '<header><span>已开户成功</span>2015-10-18  23:32:13</header>'
+                //         + '<div class="mid">'
+                //         + '<img class="photo" src="images/img01.png" >'
+                //         + '<span><label>昵称：</label>弦上漫步</span> '
+                //         + '<span><label>账号：</label>' + tabLenghtArray[itemIndex] + '</span> '
+                //         + '<span><label>手机：</label>1391****746</span> '
+                //         + '</div>'
+                //         + '</hgroup>';
+                //     }
+                //     // console.log(result);
+                // }
