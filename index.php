@@ -29,4 +29,5 @@ class one02{
 }
 $class02=one02::getnew();
 var_dump($class02);
+//分支测试1
 ?>
